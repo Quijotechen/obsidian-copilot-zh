@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 插件本体与汉化产物（体积大 + 第三方版权，不要进仓库）
+main.js
+main.zh.js
+*.orig.js
+*.backup.js
+
+# 提取产物（每次运行会变，属于中间文件）
+candidates.md
